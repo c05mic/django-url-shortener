@@ -9,4 +9,4 @@ class Url(models.Model):
 	url = models.TextField()
 	date_created = models.DateTimeField()
 	date_last_accessed = models.DateTimeField(null=True)
-	visits = models.IntegerField()
+	visits = models.IntegerField(null=True)

@@ -1,7 +1,8 @@
 from django.conf.urls import patterns, include, url
-from views import redirect, shorten
+import shorten.views
 
 urlpatterns = patterns('',
-    url(r'^shorten/', 'views.shorten'),
-    url(r'', 'views.redirect'),
+    url(r'shorten/$', 'shorten.views.shorten'),
+    url(r'shorten$', 'shorten.views.shorten'),
+    url(r'(?P<query>\w+)', 'shorten.views.redirect'),
 )

@@ -10,5 +10,5 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'dj_url_shortener.views.index'),
-    url(r'', include(shorten.urls)),
+    url(r'', include('shorten.urls')),
 )
