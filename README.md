@@ -2,7 +2,7 @@
 
 Yet another URL shortener written in Python using Django framework. 
 
-A detailed background for this project is at: [a link](https://c05mic.wordpress.com/2015/02/10/implementing-an-url-shortener-using-djangopython/)
+A detailed background for this project is at: [Django URL Shortener](https://c05mic.wordpress.com/2015/02/10/implementing-an-url-shortener-using-djangopython/)
 
 ##API
 `POST /shorten`
