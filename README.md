@@ -1,4 +1,4 @@
-#Django URL Shortener
+# Django URL Shortener
 
 Yet another URL shortener written in Python using Django framework. 
 
@@ -7,7 +7,7 @@ __Status:__
 
 A detailed background for this project is at: [Django URL Shortener](https://c05mic.wordpress.com/2015/02/10/implementing-an-url-shortener-using-djangopython/)
 
-##API
+## API
 `POST /shorten`
 <br>Parameters: Parameter link contains the link to shorten.
 <br>Returns: Id for the shortened link in text/plain format.
